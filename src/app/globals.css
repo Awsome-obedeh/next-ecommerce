@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    /* border: 1px solid red; */
+}
+.categories::-webkit-scrollbar{
+    display: none;
+}
+.categories{
+    scrollbar-width: none;
+}
